@@ -1,0 +1,45 @@
+{
+  "schema": "migration-plan-v1",
+  "disease": "long_covid",
+  "proposed_repo": "mega27-25-long-covid-biomarkers",
+  "source_shared_repository": "uditakankananonononono/mega27-25-biomarkers-underserved-diseases",
+  "source_commit": "d2284557dc5c515cef9ffc13b7df774508b8211e",
+  "tracked_files": [
+    {
+      "shared_repo_path": "projects/long_covid/NOVELTY_PLAN.md",
+      "sha256": "b458ad09265527061cee9810f27cc955b3391e1e17f9d0fc9399b973a0d81826",
+      "bytes": 2281
+    },
+    {
+      "shared_repo_path": "projects/long_covid/README.md",
+      "sha256": "250db2187587319977870e57aa47d990ad36e82a1ca300d6e0b6bc5d1164d2c0",
+      "bytes": 850
+    },
+    {
+      "shared_repo_path": "results/label_audit/long_covid__GSE275334.csv",
+      "sha256": "d5fe5acb64b8611972d3efbb6d649ac2b3a604bf201ce0ea30b77c3d1c8b3a0b",
+      "bytes": 247
+    },
+    {
+      "shared_repo_path": "results/otrec_long_covid_released_scores.csv",
+      "sha256": "134f78900212b97f091c3d11f9b60dbf8ffa603fa348490330efe56f331f193d",
+      "bytes": 588
+    }
+  ],
+  "explicitly_excluded": [
+    "untracked files",
+    "modified tracked files not represented by source commit",
+    "other-disease results",
+    "shared manuscript until disease-specific content can be verified"
+  ],
+  "accession_manifest": {
+    "source": "results/dataset_manifest.csv",
+    "matching_rule": "disease string in role field, not proof of independent datasets",
+    "matching_record_count": 178,
+    "GSE_count": 3,
+    "GSM_count": 175,
+    "other_count": 0
+  },
+  "deployment_status": "planning_only_no_repos_verified",
+  "method": "copy and verify hashes from source_commit Git tree, not dirty working tree; preserve project-relative paths; pin shared core; then run project-specific tests and read back remote"
+}

@@ -1,0 +1,4 @@
+text,label,count
+"healthy control ## | primary whole blood, pbmcs | disease: healthy control",control,18
+"long covid ## | primary whole blood, pbmcs | disease: long covid",case,15
+"me/cfs ## | primary whole blood, pbmcs | disease: me/cfs",DROP,14
