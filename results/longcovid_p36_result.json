@@ -1,0 +1,125 @@
+{
+  "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226260",
+  "source_paper": "https://www.nature.com/articles/s41590-025-02353-x",
+  "sha256": {
+    "GSE226260_AdditionalSamples.rawCounts.csv.gz": "7edfd3e993143fdf439ab3ed59f14708b2813fe5afa7e842ec855eddf122761a",
+    "GSE226260-GPL34284_series_matrix.txt.gz": "816dc4b1cc4ee6ad17d2d59b4d0d5d9911f82c5210efbbc303be2c32a06c8eb6"
+  },
+  "n_source_samples": 103,
+  "n_selected_people": 37,
+  "n_pasc": 17,
+  "n_recovered": 20,
+  "n_mapped_symbols": 42278,
+  "n_measurable_symbols": 12828,
+  "ambiguous_ensembl_ids": 3,
+  "n_fixed_measured": 6,
+  "up_signs": 5,
+  "null_mean": 1.6984,
+  "empirical_p": 0.008099190080991902,
+  "published_gene_context_support": false,
+  "genes": [
+    {
+      "gene": "JAK1",
+      "status": "measured",
+      "n_pasc": 17,
+      "n_recovered": 20,
+      "pasc_mean": 8.84823649027963,
+      "recovered_mean": 9.07173280077206,
+      "log2cpm_difference": -0.22349631049242902,
+      "welch_ci95": [
+        -0.5178491178607862,
+        0.07085649687592821
+      ],
+      "hedges_g": -0.5367094702140058,
+      "welch_p": 0.12954171637939585,
+      "up": false,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "CXCL8",
+      "status": "measured",
+      "n_pasc": 17,
+      "n_recovered": 20,
+      "pasc_mean": 2.4761912979402223,
+      "recovered_mean": 1.9259713920909458,
+      "log2cpm_difference": 0.5502199058492765,
+      "welch_ci95": [
+        -0.7491128825829381,
+        1.849552694281491
+      ],
+      "hedges_g": 0.278503262158697,
+      "welch_p": 0.39540148164417865,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "BCL2L1",
+      "status": "measured",
+      "n_pasc": 17,
+      "n_recovered": 20,
+      "pasc_mean": 6.287431227119246,
+      "recovered_mean": 6.085439316984565,
+      "log2cpm_difference": 0.20199191013468099,
+      "welch_ci95": [
+        -0.3139808900779747,
+        0.7179647103473367
+      ],
+      "hedges_g": 0.2788235899769892,
+      "welch_p": 0.42449079770944576,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "OSM",
+      "status": "measured",
+      "n_pasc": 17,
+      "n_recovered": 20,
+      "pasc_mean": 3.0344167711684777,
+      "recovered_mean": 2.5438611137007525,
+      "log2cpm_difference": 0.4905556574677252,
+      "welch_ci95": [
+        0.11022977575800003,
+        0.8708815391774505
+      ],
+      "hedges_g": 0.8264637197072537,
+      "welch_p": 0.01298253332706702,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "MAP3K8",
+      "status": "measured",
+      "n_pasc": 17,
+      "n_recovered": 20,
+      "pasc_mean": 5.005210637198492,
+      "recovered_mean": 4.929309432910947,
+      "log2cpm_difference": 0.0759012042875451,
+      "welch_ci95": [
+        -0.2689279970175801,
+        0.4207304055926703
+      ],
+      "hedges_g": 0.15135686624609915,
+      "welch_p": 0.6547546127703897,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "STAT3",
+      "status": "measured",
+      "n_pasc": 17,
+      "n_recovered": 20,
+      "pasc_mean": 7.712241123399819,
+      "recovered_mean": 7.672293185393649,
+      "log2cpm_difference": 0.03994793800617025,
+      "welch_ci95": [
+        -0.172626964268629,
+        0.2525228402809695
+      ],
+      "hedges_g": 0.12218331948056409,
+      "welch_p": 0.705094498364857,
+      "up": true,
+      "bonferroni_pass": false
+    }
+  ],
+  "limitation": "Source paper selected these genes from related data; one sample per inferred title token, no independently supplied person crosswalk, windows mixed. Not independent validation or discovery."
+}

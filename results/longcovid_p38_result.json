@@ -1,0 +1,144 @@
+{
+  "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE334857",
+  "sha256": "a36f12d7689926e94f25c0703b017f0d58b356f2da3d0038b438b1f1e7cf9b15",
+  "n_records": 25,
+  "n_people": 10,
+  "n_pasc": 6,
+  "n_recovered": 4,
+  "naive_nonempty_cells": {
+    "LC11900": 1387,
+    "LC11373": 1364,
+    "LC11703": 572,
+    "LC11720": 152,
+    "LC11780": 339,
+    "LC11837": 431,
+    "LC11638": 747,
+    "LC11710": 600,
+    "LC11713": 607,
+    "LC11757": 624
+  },
+  "duplicate_symbol_rows": 20,
+  "n_measurable_genes": 14351,
+  "target_coverage": {
+    "JAK1": {
+      "raw_symbol_rows": 1,
+      "duplicate_symbol": false,
+      "measured": true,
+      "samples_above_one_cpm": 10
+    },
+    "CXCL8": {
+      "raw_symbol_rows": 1,
+      "duplicate_symbol": false,
+      "measured": false,
+      "samples_above_one_cpm": 0
+    },
+    "BCL2L1": {
+      "raw_symbol_rows": 1,
+      "duplicate_symbol": false,
+      "measured": true,
+      "samples_above_one_cpm": 10
+    },
+    "OSM": {
+      "raw_symbol_rows": 1,
+      "duplicate_symbol": false,
+      "measured": true,
+      "samples_above_one_cpm": 9
+    },
+    "MAP3K8": {
+      "raw_symbol_rows": 1,
+      "duplicate_symbol": false,
+      "measured": true,
+      "samples_above_one_cpm": 10
+    },
+    "STAT3": {
+      "raw_symbol_rows": 1,
+      "duplicate_symbol": false,
+      "measured": true,
+      "samples_above_one_cpm": 10
+    }
+  },
+  "genes": [
+    {
+      "gene": "JAK1",
+      "status": "measured",
+      "n_pasc": 6,
+      "n_recovered": 4,
+      "log2cpm_difference": 0.24851389945444247,
+      "welch_ci95": [
+        -0.12516075837847745,
+        0.6221885572873624
+      ],
+      "hedges_g": 1.4918743544043473,
+      "welch_p": 0.12710380505640806,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "CXCL8",
+      "status": "missing or duplicate or filtered",
+      "up": null
+    },
+    {
+      "gene": "BCL2L1",
+      "status": "measured",
+      "n_pasc": 6,
+      "n_recovered": 4,
+      "log2cpm_difference": 0.03257887176252838,
+      "welch_ci95": [
+        -0.8325107368087754,
+        0.8976684803338322
+      ],
+      "hedges_g": 0.0732153362035254,
+      "welch_p": 0.920080668934306,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "OSM",
+      "status": "measured",
+      "n_pasc": 6,
+      "n_recovered": 4,
+      "log2cpm_difference": 0.487516078592761,
+      "welch_ci95": [
+        -1.499065282657263,
+        2.474097439842785
+      ],
+      "hedges_g": 0.43209242556098737,
+      "welch_p": 0.5422656405445674,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "MAP3K8",
+      "status": "measured",
+      "n_pasc": 6,
+      "n_recovered": 4,
+      "log2cpm_difference": -0.17923969733520773,
+      "welch_ci95": [
+        -3.5485310266398447,
+        3.190051631969429
+      ],
+      "hedges_g": -0.12040990658638649,
+      "welch_p": 0.8785805470806263,
+      "up": false,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "STAT3",
+      "status": "measured",
+      "n_pasc": 6,
+      "n_recovered": 4,
+      "log2cpm_difference": -0.04312138613234495,
+      "welch_ci95": [
+        -1.1769052920828225,
+        1.0906625198181326
+      ],
+      "hedges_g": -0.08397490993362322,
+      "welch_p": 0.9140269699673451,
+      "up": false,
+      "bonferroni_pass": false
+    }
+  ],
+  "registered_descriptive_support": false,
+  "caveat": "Six genes previously selected from GSE226260 paper; ten patients only, sorted naive CD4 single-cell pseudobulk versus whole blood; no novel discovery or comparable published benchmark."
+}

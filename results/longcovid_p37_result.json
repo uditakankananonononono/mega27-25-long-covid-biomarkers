@@ -1,0 +1,109 @@
+{
+  "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE275334",
+  "published_study": "https://doi.org/10.1172/jci.insight.183810",
+  "workbook_sha256": "9db33a05d0becbc51693cd392b03da5a1def06b0b36d3160e28a04ccfea7dfc5",
+  "n_records": 47,
+  "n_lc": 15,
+  "n_healthy": 18,
+  "n_mecfs_context": 14,
+  "selected_genes": [
+    {
+      "gene": "JAK1",
+      "n_lc": 15,
+      "n_healthy": 18,
+      "lc_mean": 10.997310094745933,
+      "healthy_mean": 10.804872572419011,
+      "normalized_difference": 0.19243752232692124,
+      "welch_ci95": [
+        0.04860068728659586,
+        0.33627435736724665
+      ],
+      "hedges_g": 0.9008016209233467,
+      "welch_p": 0.010438923415224252,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "CXCL8",
+      "n_lc": 15,
+      "n_healthy": 18,
+      "lc_mean": 8.772059343392975,
+      "healthy_mean": 7.934984783541511,
+      "normalized_difference": 0.8370745598514642,
+      "welch_ci95": [
+        -0.4638719512645275,
+        2.138021070967456
+      ],
+      "hedges_g": 0.4435673841942898,
+      "welch_p": 0.19899110442458026,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "BCL2L1",
+      "n_lc": 15,
+      "n_healthy": 18,
+      "lc_mean": 8.075190553770195,
+      "healthy_mean": 8.114909247049418,
+      "normalized_difference": -0.03971869327922306,
+      "welch_ci95": [
+        -0.2916046051153846,
+        0.21216721855693849
+      ],
+      "hedges_g": -0.11492826987407931,
+      "welch_p": 0.7476339368919047,
+      "up": false,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "OSM",
+      "n_lc": 15,
+      "n_healthy": 18,
+      "lc_mean": 5.793386204294147,
+      "healthy_mean": 5.334688086506688,
+      "normalized_difference": 0.45869811778745895,
+      "welch_ci95": [
+        -0.16279690624361065,
+        1.0801931418185284
+      ],
+      "hedges_g": 0.525707645851653,
+      "welch_p": 0.141592123745534,
+      "up": true,
+      "bonferroni_pass": false
+    },
+    {
+      "gene": "MAP3K8",
+      "n_lc": 15,
+      "n_healthy": 18,
+      "lc_mean": 10.280986449616057,
+      "healthy_mean": 9.65442317168164,
+      "normalized_difference": 0.6265632779344159,
+      "welch_ci95": [
+        0.2700319385718666,
+        0.9830946172969652
+      ],
+      "hedges_g": 1.191569643162382,
+      "welch_p": 0.0011484752128784127,
+      "up": true,
+      "bonferroni_pass": true
+    },
+    {
+      "gene": "STAT3",
+      "n_lc": 15,
+      "n_healthy": 18,
+      "lc_mean": 11.00863184601556,
+      "healthy_mean": 10.942187368181715,
+      "normalized_difference": 0.06644447783384422,
+      "welch_ci95": [
+        -0.09339773786452549,
+        0.22628669353221392
+      ],
+      "hedges_g": 0.28470373746239813,
+      "welch_p": 0.40304202800141986,
+      "up": true,
+      "bonferroni_pass": false
+    }
+  ],
+  "registered_cross_assay_support": false,
+  "caveat": "Source genes post-selected from GSE226260; PBMC NanoString LC versus healthy is not whole-blood RNA-seq PASC versus infected recovered. No novel biomarker or benchmark comparison."
+}
