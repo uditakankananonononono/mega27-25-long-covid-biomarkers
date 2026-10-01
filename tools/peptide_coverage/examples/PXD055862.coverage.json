@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "reference": {
+    "filename": "beta-companion-db.fasta",
+    "sha256": "6f83f3353f33aff67a7796cd01a55084b92a89440765537e4e3295cf8cb37464",
+    "bytes": 52334907,
+    "records": 102372,
+    "ambiguous_records": 8233,
+    "expected_hash_verified": true
+  },
+  "peptides": [
+    {
+      "sequence": "VVHLIKNAY",
+      "status": "exact_reference_match",
+      "occurrences": 2,
+      "matches": [
+        {
+          "record_index": 90304,
+          "header": "tr|D3DSM0|D3DSM0_HUMAN Integrin beta OS=Homo sapiens OX=9606 GN=ITGB2 PE=1 SV=1",
+          "start_1based": 295,
+          "end_1based_inclusive": 303
+        },
+        {
+          "record_index": 99128,
+          "header": "tr|A0A494C0X7|A0A494C0X7_HUMAN Integrin beta OS=Homo sapiens OX=9606 GN=ITGB2 PE=1 SV=1",
+          "start_1based": 352,
+          "end_1based_inclusive": 360
+        }
+      ],
+      "matches_truncated": false,
+      "interpretation": "Reference inclusion only; no assay or clinical inference."
+    },
+    {
+      "sequence": "KLHGILVEA",
+      "status": "exact_reference_match",
+      "occurrences": 1,
+      "matches": [
+        {
+          "record_index": 85989,
+          "header": "tr|V9GYX4|V9GYX4_HUMAN Transcriptional repressor CTCFL OS=Homo sapiens OX=9606 GN=CTCFL PE=1 SV=1",
+          "start_1based": 361,
+          "end_1based_inclusive": 369
+        }
+      ],
+      "matches_truncated": false,
+      "interpretation": "Reference inclusion only; no assay or clinical inference."
+    },
+    {
+      "sequence": "KLFLWPYKV",
+      "status": "no_exact_match_in_unverified_or_ambiguous_reference",
+      "occurrences": 0,
+      "matches": [],
+      "matches_truncated": false,
+      "interpretation": "Reference inclusion only; no assay or clinical inference."
+    },
+    {
+      "sequence": "ILMILQPQL",
+      "status": "no_exact_match_in_unverified_or_ambiguous_reference",
+      "occurrences": 0,
+      "matches": [],
+      "matches_truncated": false,
+      "interpretation": "Reference inclusion only; no assay or clinical inference."
+    }
+  ],
+  "limitations": [
+    "Reference coverage is not peptide detection, presentation, biological absence or safety.",
+    "A hash-verified file is the expected file, not proof that every experimental search used it.",
+    "Exact matching does not collapse I/L, remove modifications or translate nucleotide sequences.",
+    "HLA, donor, cell model, condition, independence and comparator eligibility are not evaluated.",
+    "Unknown residues and sequence breaks cannot support a full absence conclusion."
+  ]
+}
